@@ -3,7 +3,8 @@ using namespace std;
 
 main()
 {
-    int banyak_menu, pilihan, diskon, ppn, total_belanja, total_bayar, harga_satuan;
+    int banyak_menu, pilihan, diskon, ppn,
+        total_belanja, total_bayar;
 
     cout << "kode\t nama menu\t jenis menu\t harga satuan\n";
     cout << "1\t Iced Sundae\t Ice Cream\t Rp 16.000\n";
