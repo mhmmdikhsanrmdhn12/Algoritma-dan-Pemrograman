@@ -46,7 +46,7 @@ main()
     if (total_belanja > 50000)
     {
         diskon = total_belanja * 0.15;
-        total_bayar = diskon + ppn;
+        total_bayar = (total_belanja - diskon) + ppn;
     }
     else
     {
